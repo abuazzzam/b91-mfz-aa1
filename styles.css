@@ -132,6 +132,16 @@
     /* padding: 115px; */
 }
 
+.img-felx{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+.cimg{
+    margin-left: 15px ;
+    margin-right: 15px;
+}
 .subscription-box {
     height: 600px;
     border-radius: 16px;
