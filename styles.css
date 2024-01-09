@@ -13,7 +13,7 @@
 }
 
 .banner {
-    background-image: url("/Images/Banner\ Image.png");
+    background-image: url("images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -139,7 +139,10 @@
     margin: 120px 140px;
 }
 .subscription-box img{
-    margin: 80px 450px 40px 450px;
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+    padding-top: 40px;
 }
 
 .sub-des h2 {
@@ -164,7 +167,7 @@
 }
 
 .subsbtn input {
-    margin: 80px 336px;
+    /* margin: 80px 336px; */
 }
 
 
