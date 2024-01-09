@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -90,7 +92,7 @@
 }
 
 .section2-des h2 {
-    
+
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
@@ -102,17 +104,90 @@
     margin: 68px 138px 68px 40px;
 }
 
-.section2-des p{
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+.section2-des p {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.section2-des button{
+
+.section2-des button {
     color: #FFF;
-    background-color : transparent;
+    background-color: transparent;
     border: 0;
     margin: 48px 0 140px 160px;
+}
 
+.placebg {
+    height: 400px;
+    background-color: cadetblue;
+    border-radius: 16px;
+    margin: 0 0 140px 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.sec3text {
+    /* padding: 115px; */
+}
+
+.subscription-box{
+    height: 600px;
+    width: 1300px;
+    background-color: red;
+    margin: 120px 140px;
+    border: 2px solid #FFF;
+}
+
+/* footer */
+
+footer {
+    background-color: #070211;
+    background-size: cover;
+
+}
+
+.footer-des {
+    height: 600px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 140px;
+
+}
+
+.hr1 {
+    border: 1px solid white;
+    width: 80%;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    margin
+    
+}
+.copy {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 24px;
+    padding: 50px 140px 120px 140px;
+}
+
+.copy button {
+    color: #FFF;
+    background-color: transparent;
+    border: 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
