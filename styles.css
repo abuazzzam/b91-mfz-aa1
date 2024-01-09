@@ -132,13 +132,42 @@
     /* padding: 115px; */
 }
 
-.subscription-box{
+.subscription-box {
     height: 600px;
-    width: 1300px;
-    background-color: red;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
     margin: 120px 140px;
-    border: 2px solid #FFF;
 }
+.subscription-box img{
+    margin: 80px 450px 40px 450px;
+}
+
+.sub-des h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sub-des p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subsbtn input {
+    margin: 80px 336px;
+}
+
+
 
 /* footer */
 
@@ -165,12 +194,12 @@ footer {
     margin: 50px auto;
 }
 
-.social{
+.social {
     display: flex;
     justify-content: space-evenly;
     margin
-    
 }
+
 .copy {
     color: #FFF;
     display: flex;
